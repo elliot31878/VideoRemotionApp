@@ -1,4 +1,4 @@
-import config from 'assets/config.json';
+import config from '../assets/config.json';
 
 export const colors = config.color;
 export const footage = config.footage;

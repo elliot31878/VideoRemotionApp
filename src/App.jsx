@@ -1,18 +1,15 @@
 import {Composition} from 'remotion';
-
-export const RemotionVideo = () => {
+import {MyVideo} from './components/video';
+export const App = () => {
 	return (
 		<>
 			<Composition
-				id="HelloWorld"
-				durationInFrames={150}
-				fps={30}
+				id="Video"
+				component={MyVideo}
+				durationInFrames={4000}
+				fps={60}
 				width={1920}
 				height={1080}
-				defaultProps={{
-					titleText: 'Welcome to Remotion',
-					titleColor: 'black',
-				}}
 			/>
 		</>
 	);

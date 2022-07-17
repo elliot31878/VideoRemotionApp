@@ -16,7 +16,7 @@ This project is an application to represent a video creator for AI-enabled envir
 
 - Now use `yarn start` or `npm start` to run the app in the development mode.
 
-- Based on the `package.json` scripts config the project automatically loads on `localhost:4200` and start your default browser.
+- Based on the `package.json` scripts config the project automatically loads on `localhost:3000` and start your default browser.
 
 - Also, you can use the `yarn test` or `npm run test` script to run tests.
 

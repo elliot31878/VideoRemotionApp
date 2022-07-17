@@ -65,7 +65,7 @@ export const MyVideo = () => {
 									width: '100%',
 									zIndex: index,
 									height: '100%',
-									backgroundColor: index !== 2 ? 'black' : 'transparent',
+									backgroundColor: 'black',
 								}}
 							>
 								<Video

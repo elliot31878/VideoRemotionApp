@@ -1,0 +1,84 @@
+{
+  "editor.tabSize": 2,
+  "eslint.validate": [
+    "react",
+    "html",
+    "javascript",
+    "typescript",
+    "typescriptreact",
+    "javascriptreact"
+  ],
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.wordWrapColumn": 100,
+  "editor.rulers": [100],
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false
+  },
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true
+  },
+  "[javascriptreact]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true
+  },
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "files.exclude": {
+    "**/node_modules": false
+  },
+  "files.associations": {
+    "Dockerfile-prod": "dockerfile",
+    "Dockerfile-dev": "dockerfile",
+    ".dockerignore": "ignore",
+    ".postcssrc": "json",
+    "jsconfig.*.json": "jsonc"
+  },
+  // disable default vscode formatters and use prettier instead
+  "javascript.format.enable": false,
+  "typescript.format.enable": false,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/.cache": true,
+    "**/dist": true,
+    "**/build": true
+  },
+  "emmet.excludeLanguages": ["markdown", "typescriptreact"],
+  "vsicons.associations.files": [
+    {
+      "icon": "docker2",
+      "filename": true,
+      "extensionsGlob": ["yml"],
+      "filenamesGlob": [
+        "docker-compose",
+        "docker-compose.local",
+        "docker-compose.win",
+        "docker-compose.base",
+        "docker-compose.nightly",
+        "docker-compose.qa",
+        "docker-compose.insiders",
+        "docker-compose.production"
+      ]
+    },
+    {
+      "icon": "docker",
+      "extensions": [".dockerignore.front"]
+    },
+    {
+      "icon": "jest",
+      "filename": true,
+      "extensionsGlob": ["js"],
+      "filenamesGlob": ["jest-e2e.config"]
+    }
+  ]
+}

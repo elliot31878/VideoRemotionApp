@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "outDir": "./dist",
+    "moduleResolution": "node",
+    "module": "ESNext",
+    "target": "es2019",
+    "lib": ["dom", "dom.iterable", "ESNext"],
+    "jsx": "react-jsx",
+    "importHelpers": true,
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "strict": false,
+    "noUnusedLocals": false,
+    "isolatedModules": true,
+    "noEmit": true,
+    "plugins": [
+      {
+        "transform": "@formatjs/ts-transformer",
+        "import": "transform",
+        "type": "config",
+        "overrideIdFn": "[sha512:contenthash:base64:6]",
+        "ast": true
+      }
+    ],
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src", ".eslintrc.js"],
+  "exclude": ["node_modules", "build", "src/sw*"],
+  "typeRoots": ["./src/types", "node_modules/@types"]
+}

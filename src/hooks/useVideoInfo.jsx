@@ -1,5 +1,5 @@
 import {useEffect, useState} from 'react';
-
+import {fps} from '../constants';
 export const useVideoInfo = (video) => {
 	const [duration, setDuration] = useState(0);
 
@@ -7,7 +7,7 @@ export const useVideoInfo = (video) => {
 		var videoElement = document.createElement('video');
 		videoElement.preload = 'metadata';
 		videoElement.onloadedmetadata = function () {
-			setDuration(Math.round(videoElement.duration * 60));
+			setDuration(Math.round(videoElement.duration * fps));
 		};
 		videoElement.src = video;
 	}, [duration]);

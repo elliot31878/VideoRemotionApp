@@ -1,21 +1,38 @@
 {
    "save_path":"tmp/",
+   "music_category":"ambient",
+   "fps":30,
+   "screen_size":[
+      1920,1080
+   ],
    "text":{
+      "information":[
+         "Abolfazl Aghajanzadeh",
+         "Front-end Developer"
+      ],
       "start_text":[
          "Re-invent the Future of Video Creation"
       ],
       "middle_text":[
          {
-            "main":"Upload Your Footage",
+            "main":"Paris, France - The City of Lights",
             "secondary":"Upload your owns footage or use our stock footage library"
          },
          {
-            "product_id":"Provide campaign details",
-            "quantity":"Select the campaign objective and enter your script/prompt"
+            "main":"Machu Picchu, Peru",
+            "secondary":"Select the campaign objective and enter your script/prompt"
          },
          {
-            "product_id":"Receive multiple variations",
-            "quantity":"Receive multiple video variations within less than a minute"
+            "main":"The Grand Canyon ",
+            "secondary":"Receive multiple video variations within less than a minute"
+         },
+         {
+            "main":"Colosseum, Rome",
+            "secondary":"Receive multiple video variations within less than a minute"
+         },
+         {
+            "main":"London, England - London: The heritage of England",
+            "secondary":"Receive multiple video variations within less than a minute"
          }
       ],
       "end_text":[
@@ -50,16 +67,42 @@
       }
 
    ],
-   "color":[
-      "#142E54",
-      "#495B53",
-      "#EDEEF1",
-      "#F4DB78"
-   ],
+   "color":{
+      "gray":[
+         "#142E54",
+         "#495B53",
+         "#EDEEF1"
+      ],
+      "red":[
+         "#6f0000",
+         "#BD3F32",
+         "#CB356B"
+
+
+      ],
+      "green":[
+
+         "#159957",
+         "#4AC29A",
+         "#30E8BF"
+      ],
+      "blue":[
+         "#3D76E0",
+         "#388EE9",
+         "#6190E8"
+      ],
+      "yellow":[
+         "#F7971E",
+         "#FFD200",
+         "#F4DB78"
+
+
+      ]
+   },
    "main_font":[
-      "Bodoni"
+      "Cursive"
    ],
    "secondary_font":[
-      "Avenir"
+      "roboto"
    ]
 }

@@ -17,9 +17,8 @@
 
 
 ###### July 19, 2022
-- Add Animations And Transitions
-- Create New Components Like [Bar,Card,Gradient,Label]
-- Create Animation For End Scene With Use [Bar] Component
+- Add animations and transitions
+- Create new components like [Bar,Card,Gradient,Label]
+- Create animation for endScene use with [Bar] Component
 - Dynamicly change color - music - fps - screen size and etc width [config.json]
-- System Testing Remotation Package
-- Finished Project
+- System testing remotion package

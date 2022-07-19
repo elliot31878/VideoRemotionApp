@@ -1,7 +1,6 @@
 export const Label = ({progress, textColor, backgroundColor, font, text}) => {
 	return (
 		<div
-			className="aliasdasd"
 			style={{
 				width: '100%',
 				height: 'fit-content',

@@ -1,25 +1,38 @@
-# Simple Video Remotion Ft1
+# VideoRemotionApp
 
-This project is an application to represent a video creator for AI-enabled environments
+This project is a React-based application built with Remotion, designed as a video creator for AI-enabled environments. It allows you to create, render, and manage videos programmatically using JavaScript and React.
 
-## How to start
+## Table of Contents
+- [Features](#features)
+- [Installation](#installation)
+  - [Prerequisites](#prerequisites)
+  - [Step 1: Clone the Repository](#step-1-clone-the-repository)
+  - [Step 2: Install Dependencies](#step-2-install-dependencies)
+  - [Step 3: Running the Application](#step-3-running-the-application)
+- [Project Structure](#project-structure)
+- [Scripts](#scripts)
+  - [Development](#development)
+  - [Testing](#testing)
+  - [Building](#building)
+  - [Rendering Videos](#rendering-videos)
+- [FFmpeg Integration](#ffmpeg-integration)
+- [Contributing](#contributing)
+- [License](#license)
 
-- This project was bootstrapped with [yarn create video](https://github.com/remotion-dev/remotion)
+## Features
+- **AI-Enabled Video Creation**: Create videos for AI-enabled environments using Remotion and React.
+- **Dynamic Video Rendering**: Render videos programmatically with full control over video elements, animations, and timing.
+- **FFmpeg Integration**: Use FFmpeg for video processing and exporting to various formats.
+- **Customizable**: Easily modify video components and configurations to suit specific needs.
+- **Automated Tests**: Basic testing support for ensuring video component functionality.
 
-- At first you have to install [nodeJS](https://nodejs.org/en/) that will install [npm](https://www.npmjs.com/) package manager.
-- Also, install [FFMPEG](https://github.com/adaptlearning/adapt_authoring/wiki/Installing-FFmpeg).
-- Also, you can install [yarn](https://yarnpkg.com/) package manager and use it instead.
+## Installation
 
-- Clone this repository and then get in the newly created folder.
+Follow the steps below to set up and run the project on your local machine.
 
-- In the project directory run `yarn` or `npm i` to install dependencies.
-
-- Now use `yarn start` or `npm start` to run the app in the development mode.
-
-- Based on the `package.json` scripts config the project automatically loads on `localhost:3000` and start your default browser.
-
-- Also, you can use the `yarn test` or `npm run test` script to run tests.
-
-- The page will reload if you make edits.
-  You will also see lint errors in the console.
-  Other scripts are the same as `yarn create video` documentation
+### Prerequisites
+- **Node.js**: Ensure Node.js is installed on your system, which also includes npm. You can download it from [nodejs.org](https://nodejs.org/).
+- **FFmpeg**: Install FFmpeg on your machine for video processing. Instructions can be found at [ffmpeg.org](https://ffmpeg.org/download.html).
+- **Yarn (Optional)**: You can use Yarn as a package manager instead of npm. Install it globally with:
+  ```bash
+  npm install --global yarn
